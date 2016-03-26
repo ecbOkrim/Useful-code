@@ -1,0 +1,46 @@
+.container{
+  background-color: gray;
+  width: 400px;
+  height: 200px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type-1 span{
+  top: -2px;
+  left: -20px;
+  background-color: orange;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type-2 span{
+  position: relative;
+  top: -2px;
+  left: -30px;
+  background-color: orange;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type-3{
+  position: relative;
+}
+
+#type-3 span{
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  background-color: orange;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type-4{
+  position: relative;
+}
+
+#type-4 span{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: orange;
+}

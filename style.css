@@ -1,0 +1,73 @@
+body{
+  background-color: grey;
+  font: 700 20px/2 "UBUNTU", sans-serif;
+  color: white;
+}
+
+.container{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  padding: 5px;
+  background-color: white;
+  border: solid 1px #444444;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border: solid 1px #550000;
+}
+
+#type-1{
+  text-align: center;
+}
+
+#type-1 .box{
+  background-color: #33aaff;
+  display: inline-block;
+}
+
+#type-2 .box{
+  background-color: #2988cc;
+  margin: auto;
+}
+
+#type-3{
+  position: relative;
+}
+
+#type-3 .box{
+  background-color: #1f6699;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+#type-4{
+  position: relative;
+}
+
+#type-4 .box{
+  background-color: #144466;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%); /* IE 9 */
+ 	-webkit-transform: translate(-50%,-50%); /* Safari */
+  transform: translate(-50%,-50%);
+}
+
+#type-5{
+  position: relative;
+}
+
+#type-5 .box{
+  background-color: #0a2233;
+  margin:auto;
+  position: absolute;
+  top:0; right:0; bottom:0; left:0;
+}

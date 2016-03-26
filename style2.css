@@ -1,0 +1,98 @@
+h3, div {
+  font-family: 'UBUNTU', sans-serif;
+}
+
+h3 {
+  margin: 40px 0 7px;
+}
+
+#type1, #type2, #type3 {
+  border: 5px dotted rgba(0,0,0,.4);
+  background-clip: padding-box;
+  width: 50%;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+  background: yellow;
+  padding: 3px 5px;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type1 {
+  background: red;
+  height: 100px;
+}
+
+.box1 {
+  height: 30px;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type2 {
+  background: orange;
+  height: 80px;
+}
+
+#type2:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.box2 {
+  height: 20px;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type3 {
+  background: green;
+  /*height: 120px;*/
+  line-height: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+#type3:before{
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+  -webkit-transform: scale(0.05, 0.05);
+  -webkit-transform-origin: 50% 0%;
+  -webkit-transition: all, 400ms, ease-in-out, 200ms;
+}
+
+#type3:hover:before{
+  -webkit-transform: scale(1, 1);
+}
+
+.box3 {
+  width: 30%;
+  line-height: normal;
+}
+
+/*<-----><-----><-----><-----><-----><-----><-----><-----><-----><-----><----->*/
+#type4 {
+  text-align: center;
+  width: 20%;
+  box-shadow: 3px 3px 0 black;
+  background: magenta;
+  line-height: 60px;
+}
+
+#type4:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  background: pink;
+}
+
+.box4 {
+  line-height: normal;
+  background: none;
+}
