@@ -2,7 +2,14 @@
   width: 500px;
   height: 250px;
   margin: 10px auto;
-  padding: 10px;
+  padding: 20px;
+  background-color: hsl(230, 67%, 45%);
+}
+
+.container2{
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
   background-color: hsl(230, 67%, 45%);
 }
 
@@ -15,10 +22,91 @@
   font: bolder 24px "UBUNTU";
 }
 
-#type-2 .box{
+.boxy{
+  margin: 5px;
+  background-color: hsl(50, 91%, 76%);
+  font: bolder 24px "UBUNTU";
+}
+
+#type-2 div{
   float: left;
 }
 
-#type-3 .box{
+#type-3 div{
   float: right;
+}
+
+#type-4{
+  height: auto;
+}
+
+#type-4 div{
+  float: none;
+}
+
+#type-5{
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#type-5 div{
+  float: left;
+}
+
+#type-6 div{
+  width: 100%;
+  float: left;
+}
+
+#type-7{
+  margin-bottom: 150px;
+}
+
+#type-7 div{
+  width: 25%;
+  height: 50%;
+  float: left;
+}
+
+#type-8{
+  margin-bottom: 30%;
+}
+
+#type-8 div{
+  width: 25%;
+  height: 50%;
+  float: left;
+}
+
+#type-8 div:last-child{
+  width: 25%;
+  height: 50%;
+  float: left;
+  clear: both;
+}
+
+#type-9 .box{
+  width: 180px;
+  height: 180px;
+  float: left;
+}
+
+#type-9 .clear{
+  clear: both;
+}
+
+#type-10:before, #type-10:after{
+  content: '';
+  display: table;
+}
+
+#type-10:after{
+  clear: both;
+}
+
+
+#type-10 .box{
+  width: 180px;
+  height: 180px;
+  float: left;
 }
