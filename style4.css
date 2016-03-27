@@ -1,0 +1,24 @@
+.container{
+  width: 500px;
+  height: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: hsl(230, 67%, 45%);
+}
+
+.box{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: hsl(50, 91%, 76%);
+  font: bolder 24px "UBUNTU";
+}
+
+#type-2 .box{
+  float: left;
+}
+
+#type-3 .box{
+  float: right;
+}
